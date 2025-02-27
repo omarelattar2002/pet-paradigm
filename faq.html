@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently Asked Questions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Frequently Asked Questions</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dogs.html">Dogs</a></li>
+                <li><a href="cats.html">Cats</a></li>
+                <li><a href="small-animals.html">Small Animals</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq">
+
+            <div class="faq-item">
+                <h3 onclick="toggleAnswer(0)"> What services do you offer? ▼</h3>
+                <p class="answer">We offer virtual consultations, pet care advice, and expert guidance for different types of pets.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3 onclick="toggleAnswer(1)"> What is the best food for my dog? ▼</h3>
+                <p class="answer">The best food depends on your dog’s breed, age, and health. Consult our <a href="dogs.html">Dog Owners</a> page for more details.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3 onclick="toggleAnswer(2)"> How can I transition my cat to a new diet? ▼</h3>
+                <p class="answer">Gradually introduce the new food over 7-10 days by mixing it with the old food.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3 onclick="toggleAnswer(3)"> What type of housing is best for small pets? ▼</h3>
+                <p class="answer">Guinea pigs, hamsters, and rabbits require spacious cages with proper ventilation and safe bedding.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3 onclick="toggleAnswer(4)"> How can I book a consultation? ▼</h3>
+                <p class="answer">You can book a consultation through our <a href="contact.html">Contact Us</a> page.</p>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
