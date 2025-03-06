@@ -9,6 +9,7 @@
 <body>
 
     <header>
+        <img src="images/logo.png" alt="Paradigm Pet Professionals Logo" width="150">
         <h1>Contact Us</h1>
         <nav>
             <ul>
@@ -26,6 +27,19 @@
     <main>
         <h2>Request a Consultation</h2>
         <form id="contactForm">
+
+            <label for="petType">Pet Type:</label>
+            <select id="petType">
+                <option>Dog</option>
+                <option>Cat</option>
+                <option>Small Animal</option>
+            </select><br>
+
+            
+
+
+
+
             <label for="name">Name:</label>
             <input type="text" id="name" required><br>
         
@@ -35,15 +49,28 @@
             <label for="phone">Phone:</label>
             <input type="tel" id="phone" required><br>
         
-            <label for="petType">Pet Type:</label>
-            <select id="petType">
-                <option>Dog</option>
-                <option>Cat</option>
-                <option>Small Animal</option>
-            </select><br>
+
+
+
+            <label for="pet-name">Pet Name:</label>
+            <input type="text" id="pet-name" name="pet_name" required><br>
         
             <label for="age">Pet Age:</label>
             <input type="number" id="age" required><br>
+
+            <label for="timezone">Time Zone:</label>
+            <select id="timezone" name="timezone" required>
+                <option value="">Select your time zone</option>
+                <option value="PST">Pacific Standard Time (PST)</option>
+                <option value="MST">Mountain Standard Time (MST)</option>
+                <option value="CST">Central Standard Time (CST)</option>
+                <option value="EST">Eastern Standard Time (EST)</option>
+                <option value="GMT">Greenwich Mean Time (GMT)</option>
+                <option value="CET">Central European Time (CET)</option>
+                <option value="IST">Indian Standard Time (IST)</option>
+                <option value="JST">Japan Standard Time (JST)</option>
+                <option value="AEST">Australian Eastern Standard Time (AEST)</option>
+            </select>
         
             <button type="submit">Submit</button>
         </form>
