@@ -60,3 +60,10 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+
+nav ul li a.active {
+    color: #ffcc00;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
